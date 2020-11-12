@@ -1,0 +1,20 @@
+digraph {
+    splines=false;
+    j1[label=<j<SUB>1</SUB>>];
+    j2[label=<j<SUB>2</SUB>>];
+    j3[label=<j<SUB>3</SUB>>];
+    j4[label=<j<SUB>4</SUB>>];
+
+    1 -> j1[label="6", weight="6"];
+    1 -> j2[label="4", weight="4"];
+    1 -> j3[label="5", weight="5"];
+    2 -> j2[label="3", weight="3"];
+    2 -> j3[label="6", weight="6"];
+    3 -> j1[label="5", weight="5"];
+    3 -> j3[label="4", weight="4"];
+    3 -> j4[label="3", weight="3"];
+    4 -> j1[label="7", weight="7"];
+    4 -> j2[label="5", weight="5"];
+    4 -> j3[label="5", weight="5"];
+    4 -> j4[label="5", weight="5"];
+}
